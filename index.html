@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="overlay" id="overlay">
+    <div class="menu-hamb" id="menu-hamb">
+      <div class="box-close">
+        <button class="close" onclick="menu()">
+          <i class="fa-solid fa-x"></i>
+        </button>
+      </div>
+      <a href="" class="menu-item">Missão</a>
+      <a href="" class="menu-item">Visão</a>
+      <a href="" class="menu-item">Fale conosco</a>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <img src="./assets/img/logo.png" alt="logo" class="logo">
+      <button class="btn-hmb" onclick="menu()">
+        <i class="fa-solid fa-bars icone"></i>
+      </button>
+
+    </div>
+  </header>
+  <!-- Banner -->
+  <div class="banner">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/slaid01.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slaide02.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slaide03.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assets/img/slaide04.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Card-Geral -->
+    <div class="card-geral"> <!--100%-->
+      <div class="secao-cards"> <!--width 1250px-->
+        <div class="card">
+          <img src="./assets/img/icone-igreja.png" alt="igreja" class="icone-card">
+          <h3 class="title-card">Nossa Missão</h3>
+          <p class="text-card">Compartilhar o evangêlho de Jesus Cristo com Mundo.</p>
+          <a href="" class="link-card">Mais</a>
+        </div>
+        <div class="card">
+          <img src="./assets/img/biblia-icone.png" alt="igreja" class="icone-card">
+          <h3 class="title-card">Visão</h3>
+          <p class="text-card">Examinais as Escrituras, porque vós cuidais ter nelas a vida eterna, e são elas que de
+            mim testificam;
+
+            <a href="" class="link-card">Mais</a>
+        </div>
+        <div class="card">
+          <img src="./assets/img/contato-icon.png" alt="igreja" class="icone-card">
+          <h3 class="title-card">Contato</h3>
+          <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam id libero excepturi
+            explicabo, rerum dolorem a possimus rem natus, veritatis, necessitatibus aspernatur dicta odio quod est
+            obcaecati accusamus adipisci?</p>
+          <a href="" class="link-card">Mais</a>
+        </div>
+      </div>
+    </div>
+    <!--Div youtube -->
+
+    <div class="youtube"> <!--100%-->
+      <div class="container-youtube"> <!--width 1250px-->
+        <div class="text-youtube">
+          <h1 class="title-youtube">Nossa Missão</h1>
+        </div>
+
+        <div class="iframe-youtube">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gNEOcKdXoZA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+ 
+
+    <!--Visão-->
+
+    <div class="visao"> <!--100%-->
+      <div class="container-visao"> <!--width 1250px-->
+        <div class="text-visao">
+          <h1 class="title-visao">Nossa Células</h1>
+        </div>
+      </div>
+    </div>
+  
+
+  <!-- Contact -->
+
+
+  <div class="contact"> <!--100%-->
+    <div class="container-contact"> <!--width 1250px-->
+      <div class="text-contact">
+        <h1 class="title-contact">Nossa Células</h1>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <section className="contact" id="contato">
+    <div className="container">
+      <address data-aos="fade-up" data-aos-duration="800" className="location">
+        <h2 className="title">Localização</h2>
+
+        <p className="text">Dr. Joaquim José Batista Ferreira, 140</p>
+        <p className="text">Jd. Simus - Sorocaba/SP</p>
+
+        <div className="location__links">
+          <a className="social-icon" href="https://www.waze.com/ul?ll=-23.50804200%2C-47.48679740&navigate=yes&zoom=16"
+            target="_blank" rel="noopener noreferrer">
+            <img src={wazeIcon} alt="Navegue pelo Waze" />
+          </a>
+          <a className="social-icon" href="https://goo.gl/maps/Cu5sJUrRiwr" target="_blank" rel="noopener noreferrer">
+            <img src={gmapsIcon} alt="Navegue pelo Google Maps" />
+          </a>
+        </div>
+      </address>
+
+      <aside data-aos="fade-up" data-aos-duration="800" className="timetable">
+        <h2 className="title">Nossos Horários</h2>
+        <p className="text">Domingo e Quarta - 19h ~ 0h</p>
+        <p className="text">Sexta e Sábado - 19h ~ 02h</p>
+        <p className="text"> Segunda, Terça, Quinta - Fechado -</p>
+      </aside>
+
+      <aside data-aos="fade-up" data-aos-duration="800" className="social-bar">
+        <h2 className="title">Nos encontre</h2>
+        <p className="text">
+          Fique por dentro das novidades e de nossos eventos:
+        </p>
+
+        <div className="social-bar__list">
+          <a className="social-icon facebook" href="https://www.facebook.com/dpetisco/" rel="noopener noreferrer"
+            target="_blank">
+            Facebook
+          </a>
+          <a className="social-icon whatsapp" href="https://api.whatsapp.com/send?phone=5512988024655"
+            rel="noopener noreferrer" target="_blank">
+            WhatsApp
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+  )
+  -->
+  export { Contact }
+  export default Contact
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

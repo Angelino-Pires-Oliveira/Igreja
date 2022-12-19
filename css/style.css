@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 990;
+  /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.icone {
+  font-size: 36px;
+}
+
+.btn-hmb {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.425);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 991;
+}
+
+.overlay-active {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.menu-hamb {
+  display: none;
+  -webkit-animation-name: slideOutLeft;
+  animation-name: slideOutLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.menu-active {
+  width: 25%;
+  height: 100vh;
+  background-color: #060809f5;
+  z-index: 992;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 26px;
+  /* chama a animação de entrada*/
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* animação de entrada */
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* fim da animação de entrada*/
+@-webkit-keyframes slideOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    visibility: hidden;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideOutLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    visibility: hidden;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.box-close {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+.close {
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+
+  margin-top: 80px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+}
+
+.card-geral {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.secao-cards {
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none !important;
+}
+
+.icone-card {
+  background-color: #67a3b0;
+}
+/* comecei aqui */
+.youtube {
+  width: 100%;
+  height:  500px;
+  background-color:  #67a3b0;
+  z-index: 990; /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+.container-youtube {
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-youtube{
+  font-size: 4em;
+}
+.text-youtube {
+  color: white;
+}
+/********************************visao***********************/
+.visao {
+  width: 100%;
+  height: 500px;
+  background-color:  #8cb746;
+  z-index: 990; /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+.container-visao {
+  width: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/********************************Contato***********************/
+
