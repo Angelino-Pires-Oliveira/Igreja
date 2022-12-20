@@ -5,13 +5,15 @@
   scroll-behavior: smooth;
 
 }
+
 html {
   scroll-behavior: smooth;
 }
- 
+
 :target {
   scroll-margin-top: 5.0em;
 }
+
 body {
   width: 100%;
 }
@@ -54,7 +56,8 @@ header {
   outline: none;
   cursor: pointer;
 }
-.menu-item{
+
+.menu-item {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -63,7 +66,8 @@ header {
   transition: 0.3s;
   text-decoration: underline;
 }
-.menu-item:hover{
+
+.menu-item:hover {
   color: #67a3b0;
   text-decoration: none;
   font-size: 26px;
@@ -71,8 +75,9 @@ header {
   margin: 0 16px;
   transition: 0.3s;
   text-decoration: underline;
-  
+
 }
+
 .overlay {
   display: none;
   width: 100vw;
@@ -222,7 +227,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center ;
+  align-items: center;
   padding: 24px 0;
 }
 
@@ -237,229 +242,482 @@ header {
   box-shadow: 0px 0px 16px 1px #67a3b0;
   transition: 0.5s;
 }
-.card:hover{
+
+.card:hover {
   transform: scale(1.05);
 }
 
 .icone-card {
   background-color: #67a3b0;
-  
-  width:80px;
+
+  width: 80px;
   margin-bottom: 16px;
 }
-.text-card{
-  text-align: center  ;
+
+.text-card {
+  text-align: center;
 }
-.link-card{
+
+.link-card {
   font-size: 20px;
-  color:#000;
+  color: #000;
   font-weight: 500;
 }
-.link-card:hover{
+
+.link-card:hover {
   color: #6789b0;
 }
+
 /* comecei aqui */
 .youtube {
   width: 100%;
-  height:  500px;
-  background-color:  #67a3b0;
-  z-index: 990; /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
+  height: 500px;
+  background-color: #67a3b0;
+  z-index: 990;
+  /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
   display: flex;
   flex-direction: row;
-  justify-content: center; 
-  margin:60px 0 0 0;
+  justify-content: center;
+  margin: 60px 0 0 0;
 
 }
-.up-arrow{
-  width:40%;
+
+.up-arrow {
+  width: 40%;
   height: 30%;
   position: absolute;
   margin-top: -60px;
   left: 30%;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background-color:  #67a3b0;
+  background-color: #67a3b0;
   z-index: 0;
 }
-.down-arrow{
-  width:40%;
+
+.down-arrow {
+  width: 40%;
   height: 30%;
   position: absolute;
   margin-top: 380px;
   left: 30%;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background-color:  #67a3b0;
+  background-color: #67a3b0;
   z-index: 0;
 }
+
 .container-youtube {
   width: 1250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
- 
+
 }
-.title-youtube{
+
+.title-youtube {
   font-size: 4em;
 }
+
 .text-youtube {
   color: white;
 }
-.iframe-youtube{
-  position:sticky;
+
+.iframe-youtube {
+  position: sticky;
   z-index: 2;
 }
+
 /********************************visao***********************/
 .visao {
   width: 100%;
   height: 500px;
   background-image: url(../assets/img/slaide02.jpeg);
-  z-index: 990; /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
+  z-index: 990;
+  /* eixo z - profundidade. Qual elemento fica em cima de qual. Quanto maior, mais proximo da tela*/
   display: flex;
   flex-direction: row;
-  justify-content: center; 
-  padding:24px 0;
+  justify-content: center;
+  padding: 24px 0;
 }
-.container-visao  {
+
+.container-visao {
   background-color: rgba(255, 255, 255, 0.925);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.container-visao:hover{
+
+.container-visao:hover {
   transform: scale(1.03);
   transition: 0.5s;
   box-shadow: 2px 2px 16px 1px #67a3b0;
 }
-.container-visao:hover > .right-visao{
+
+.container-visao:hover>.right-visao {
   color: #67a3b0;
   transition: 0.5s;
 }
-.text-visao{
-  width:40%;
+
+.text-visao {
+  width: 40%;
   padding: 24px;
 }
-.right-visao{
-  width:60%;
-  padding:60px;
+
+.right-visao {
+  width: 60%;
+  padding: 60px;
   font-style: italic;
 }
-.contact{
+
+.contact {
   width: 100%;
   height: 500px;
   display: flex;
   flex-direction: row;
-  justify-content: center; 
-  padding:24px 0;
-  background-color:  #67a3b0;
-  color:#fff;
+  justify-content: center;
+  padding: 24px 0;
+  background-color: #67a3b0;
+  color: #fff;
 }
-.container-contact{
+
+.container-contact {
   width: 1250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;  
+  align-items: flex-start;
 }
-.text-contact{
+
+.text-contact {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.icons-contact{
-  width:100%;
+
+.icons-contact {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   margin-top: 34px;
 }
-.texto-contact{
+
+.texto-contact {
   font-size: 18px;
-  margin:0;
+  margin: 0;
 }
-.logo-mapa{
-  width:60px;
+
+.logo-mapa {
+  width: 60px;
   margin-right: 24px;
 }
-.footer{
+
+.footer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center; 
-  padding:24px 0 0 0;
-  background-color:  rgb(238, 238, 238);
-  color:#000;
+  justify-content: center;
+  padding: 24px 0 0 0;
+  background-color: rgb(238, 238, 238);
+  color: #000;
   box-shadow: 0px 0px 16px 1px #00000081;
 }
-.container-footer{
+
+.container-footer {
   width: 1250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;  
+  align-items: flex-start;
   flex-wrap: wrap;
 }
-.footer-item{
+
+.footer-item {
   width: 24%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-.footer-icons{
-  width:100%;
+
+.footer-icons {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
 }
-.footer-title{
+
+.footer-title {
   font-size: 24px;
   text-decoration: underline;
-  margin:0;
+  margin: 0;
 }
-.footer-text{
+
+.footer-text {
   font-size: 18px;
-  margin:0;
+  margin: 0;
 }
-.logo-mapa-footer{
-  width:36px;
+
+.logo-mapa-footer {
+  width: 36px;
   margin-right: 24px;
 }
-.copy{
-  width:100%;
+
+.copy {
+  width: 100%;
   padding: 24px 0 0 0;
   text-align: center;
 }
+
 /********************************Contato***********************/
 
-@media screen and (min-width:320px) and (max-width:413px){
+@media screen and (min-width:320px) and (max-width:413px) {
   .banner {
     height: 150px;
   }
-  .carousel{
+
+  .carousel {
     height: 150px;
   }
-  .carousel-inner{
+
+  .carousel-inner {
     height: 150px;
   }
-  .card-geral{
+
+  .card-geral {
     height: auto;
   }
-  .secao-cards{
+
+  .secao-cards {
     flex-direction: column;
   }
-  .card{
+
+  .card {
     width: 100%;
     margin-bottom: 24px;
   }
-  .youtube{
+
+  .youtube {
     height: auto;
-    
+
   }
-  .container-youtube{
+
+  .container-youtube {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .up-arrow {
+    display: none;
+    width: 40%;
+    height: 12%;
+    position: absolute;
+    margin-top: -54px;
+    left: 31%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #280767;
+    z-index: 0;
+  }
+
+  .down-arrow {
+    display: none;
+    width: 40%;
+    height: 12%;
+    position: absolute;
+    margin-top: 313px;
+    left: 30%;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background-color: #67a3b0;
+    z-index: 0;
+  }
+
+  .text-youtube {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+
+  .visao {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/slaide02.jpeg);
+    z-index: 990;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 0;
+  }
+
+  .container-visao {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.925);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-visao {
+    width: 100%;
+    padding: 48px 20px;
+    text-align: center;
+  }
+
+  .right-visao {
+    width: 100%;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0;
+    background-color: #67a3b0;
+    color: #fff;
+  }
+
+  .container-contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .icons-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+
+  .logo-mapa {
+    width: 60px;
+    margin: 0 12px;
+  }
+
+  .mapa {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+  }
+
+  .container-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .copy {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+}
+
+@media screen and (min-width:414px) and (max-width:767px) {
+  .banner {
+    height: 150px;
+  }
+
+  .carousel {
+    height: 150px;
+  }
+
+  .carousel-inner {
+    height: 150px;
+  }
+
+  .card-geral {
+    height: auto;
+  }
+
+  .secao-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .youtube {
+    height: auto;
+
+  }
+
+  .container-youtube {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .up-arrow {
     width: 40%;
     height: 12%;
@@ -469,367 +727,218 @@ header {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background-color: #67a3b0;
     z-index: 0;
-}
-.down-arrow {
-  width: 40%;
-  height: 12%;
-  position: absolute;
-  margin-top: 313px;
-  left: 30%;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background-color: #67a3b0;
-  z-index: 0;
-}
-.text-youtube {
-  width: 100%;
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-}
-.video{
-  width: 100%;
-  height: auto;
-}
-.visao {
-  width: 100%;
- height: auto; 
-  background-image: url(../assets/img/slaide02.jpeg);
-  z-index: 990;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 24px 0;
-}
-.container-visao{
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.925);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-visao {
-  width: 100%;
-  padding: 48px 20px;
-  text-align: center;
-}
-.right-visao{
-  width: 100%;
-  padding: 20px;
-  font-style: italic;
-  text-align: center;
-}
-.contact{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  padding:24px 0;
-  background-color:  #67a3b0;
-  color:#fff;
-}
-.container-contact{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-contact{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.icons-contact{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 34px;
-}
-.logo-mapa{
-  width:60px;
-  margin: 0 12px;
-}
-.mapa{
-  width: 100%;
-  height: auto;
-  margin-top:24px;
-}
-.footer{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 0;
-}
-.container-footer{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.footer-item{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.footer-icons{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  margin:24px 0;
-}
-.footer-text{
-  font-size: 18px;
-  margin:0;
-  padding: 0 24px;
-  text-align: center;
-}
-.copy{
-  width:100%;
-  padding: 24px;
-  text-align: center;
-}
-.menu-active{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 999;
-}
-}
-@media screen and (min-width:414px) and (max-width:767px){
-  .banner {
-    height: 150px;
   }
-  .carousel{
-    height: 150px;
-  }
-  .carousel-inner{
-    height: 150px;
-  }
-  .card-geral{
-    height: auto;
-  }
-  .secao-cards{
-    flex-direction: column;
-  }
-  .card{
-    width: 100%;
-    margin-bottom: 24px;
-  }
-  .youtube{
-    height: auto;
-    
-  }
-  .container-youtube{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .up-arrow {
+
+  .down-arrow {
     width: 40%;
     height: 12%;
     position: absolute;
-    margin-top: -54px;
-    left: 31%;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-top: 313px;
+    left: 30%;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
     background-color: #67a3b0;
     z-index: 0;
+  }
+
+  .text-youtube {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+
+  .visao {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/slaide02.jpeg);
+    z-index: 990;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 0;
+  }
+
+  .container-visao {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.925);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-visao {
+    width: 100%;
+    padding: 48px 20px;
+    text-align: center;
+  }
+
+  .right-visao {
+    width: 100%;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0;
+    background-color: #67a3b0;
+    color: #fff;
+  }
+
+  .container-contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .icons-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+
+  .logo-mapa {
+    width: 60px;
+    margin: 0 12px;
+  }
+
+  .mapa {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+  }
+
+  .container-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .copy {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .iframe-youtube {
+    width: 100%;
+    height: 200px;
+  }
+
+  .video {
+    width: 100%;
+    height: 200px;
+  }
 }
-.down-arrow {
-  width: 40%;
-  height: 12%;
-  position: absolute;
-  margin-top: 313px;
-  left: 30%;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background-color: #67a3b0;
-  z-index: 0;
-}
-.text-youtube {
-  width: 100%;
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-}
-.video{
-  width: 100%;
-  height: auto;
-}
-.visao {
-  width: 100%;
- height: auto; 
-  background-image: url(../assets/img/slaide02.jpeg);
-  z-index: 990;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 24px 0;
-}
-.container-visao{
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.925);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-visao {
-  width: 100%;
-  padding: 48px 20px;
-  text-align: center;
-}
-.right-visao{
-  width: 100%;
-  padding: 20px;
-  font-style: italic;
-  text-align: center;
-}
-.contact{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  padding:24px 0;
-  background-color:  #67a3b0;
-  color:#fff;
-}
-.container-contact{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-contact{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.icons-contact{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 34px;
-}
-.logo-mapa{
-  width:60px;
-  margin: 0 12px;
-}
-.mapa{
-  width: 100%;
-  height: auto;
-  margin-top:24px;
-}
-.footer{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 0;
-}
-.container-footer{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.footer-item{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.footer-icons{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  margin:24px 0;
-}
-.footer-text{
-  font-size: 18px;
-  margin:0;
-  padding: 0 24px;
-  text-align: center;
-}
-.copy{
-  width:100%;
-  padding: 24px;
-  text-align: center;
-}
-.menu-active{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 999;
-}
-.iframe-youtube{
-  width: 100%;
-  height: 200px;
-}
-.video{
-  width: 100%;
-  height: 200px;
-}
-}
-@media screen and (min-width:768px) and (max-width:1365px){
+
+@media screen and (min-width:768px) and (max-width:1365px) {
   .banner {
     height: 350px;
   }
-  .carousel{
+
+  .carousel {
     height: 350px;
   }
-  .carousel-inner{
+
+  .carousel-inner {
     height: 350px;
   }
-  .card-geral{
+
+  .card-geral {
     height: auto;
   }
-  .secao-cards{
+
+  .secao-cards {
     flex-direction: column;
   }
-  .card{
+
+  .card {
     width: 70%;
     margin-bottom: 24px;
   }
-  .youtube{
+
+  .youtube {
     height: auto;
-    
+
   }
-  .container-youtube{
+
+  .container-youtube {
     flex-direction: column;
     align-items: flex-start;
     height: auto;
     padding-bottom: 36px;
   }
+
   .up-arrow {
     width: 40%;
     height: 12%;
@@ -839,154 +948,176 @@ header {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background-color: #67a3b0;
     z-index: 0;
-}
-.down-arrow {
-  width: 40%;
-  height: 12%;
-  position: absolute;
-  margin-top: 470px;
-  left: 30%;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
-  background-color: #67a3b0;
-  z-index: 0;
-}
-.text-youtube {
-  width: 100%;
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-}
-.video{
-  width: 100%;
-  height: 250px;
-}
-.visao {
-  width: 100%;
- height: auto; 
-  background-image: url(../assets/img/slaide02.jpeg);
-  z-index: 990;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 24px 0;
-}
-.container-visao{
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.925);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-visao {
-  width: 100%;
-  padding: 48px 20px;
-  text-align: center;
-}
-.right-visao{
-  width: 100%;
-  padding: 20px;
-  font-style: italic;
-  text-align: center;
-}
-.contact{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  padding:24px 0;
-  background-color:  #67a3b0;
-  color:#fff;
-}
-.container-contact{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-contact{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.icons-contact{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 34px;
-}
-.logo-mapa{
-  width:60px;
-  margin: 0 12px;
-}
-.mapa{
-  width: 100%;
-  height: auto;
-  margin-top:24px;
-}
-.footer{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 0;
-}
-.container-footer{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.footer-item{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.footer-icons{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  margin:24px 0;
-}
-.footer-text{
-  font-size: 18px;
-  margin:0;
-  padding: 0 24px;
-  text-align: center;
-}
-.copy{
-  width:100%;
-  padding: 24px;
-  text-align: center;
-}
-.menu-active{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 999;
-}
-.iframe-youtube{
-  width: 100%;
-  height: 350px;
-}
-.video{
-  width: 100%;
-  height: 350px;
-}
+  }
+
+  .down-arrow {
+    width: 40%;
+    height: 12%;
+    position: absolute;
+    margin-top: 470px;
+    left: 30%;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background-color: #67a3b0;
+    z-index: 0;
+  }
+
+  .text-youtube {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .video {
+    width: 100%;
+    height: 250px;
+  }
+
+  .visao {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/slaide02.jpeg);
+    z-index: 990;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 0;
+  }
+
+  .container-visao {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.925);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-visao {
+    width: 100%;
+    padding: 48px 20px;
+    text-align: center;
+  }
+
+  .right-visao {
+    width: 100%;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0;
+    background-color: #67a3b0;
+    color: #fff;
+  }
+
+  .container-contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .icons-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+
+  .logo-mapa {
+    width: 60px;
+    margin: 0 12px;
+  }
+
+  .mapa {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+  }
+
+  .container-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .copy {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .iframe-youtube {
+    width: 100%;
+    height: 350px;
+  }
+
+  .video {
+    width: 100%;
+    height: 350px;
+  }
 }
