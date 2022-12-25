@@ -751,6 +751,7 @@ header {
     width: 100%;
     height: auto;
   }
+ 
 
   .visao {
     width: 100%;
@@ -762,7 +763,6 @@ header {
     justify-content: center;
     padding: 24px 0;
   }
-
   .container-visao {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.925);
