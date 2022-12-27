@@ -729,6 +729,7 @@ header {
     width:100%;
     position: sticky;
     z-index: 9;
+    padding-top: 48px;
   }
 
   .up-arrow {
