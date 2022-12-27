@@ -735,11 +735,12 @@ header {
     width: 40%;
     height: 12%;
     position: absolute;
-    margin-top: -54px;
+    margin-top: -84px;
     left: 31%;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background-color: #67a3b0;
     z-index: 0;
+  
   }
 
   .down-arrow {
